@@ -40,6 +40,9 @@ Route::get('users/{user}', 'UsersController@show');
 Route::post('users/{user}/fan', 'UsersController@fan');
 Route::post('users/{user}/unfan', 'UsersController@unfan');
 
+// 专题详请页
+Route::get('topics/{topic}', 'TopicsController@show');
+Route::post('topics/{topic}/submit', 'TopicsController@submit');
 
 
 
